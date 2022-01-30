@@ -23,6 +23,8 @@ steps:
 - script: |
     node -v
     npm install
+    node -v
     npm install sass gulp-sass --save-dev
+    node -v
     npm start
   displayName: 'npm install and start'
