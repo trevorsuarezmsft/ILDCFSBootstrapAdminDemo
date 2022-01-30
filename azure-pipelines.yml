@@ -23,8 +23,5 @@ steps:
 - script: |
     node -v
     npm install
-    node -v
-    npm install sass gulp-sass --save-dev
-    node -v
-    npm start
+    npm i startbootstrap-sb-admin-2
   displayName: 'npm install and start'
